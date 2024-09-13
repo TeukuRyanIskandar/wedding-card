@@ -1,42 +1,117 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+form,
+fieldset,
+legend,
+input,
+textarea,
+label,
+select,
+button,
+table,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+/* HTML5 display reset */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+/* Box sizing */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* Remove default margin for list items */
+ol,
+ul {
+  list-style: none;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Remove default margin for images */
+img {
+  max-width: 100%;
+  height: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* Remove default margin for fieldsets */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.75em 0.35em 0.75em;
 }
-
-.card {
-  padding: 2em;
+/* Remove default border and padding for legends */
+legend {
+  border: 0 none;
+  padding: 0;
+  white-space: normal;
 }
-
-.read-the-docs {
-  color: #888;
+/* Remove default border and padding for buttons */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+/* Remove default outline for buttons */
+button,
+input {
+  outline: none;
+}
+/* Remove default margin for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }

@@ -1,0 +1,20 @@
+.navbar-container {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--wisteria);
+    height: 12%;
+    width: 100%;
+    opacity: 60%;
+}
+
+.navbar-items {
+    padding-top: 0.8rem;
+}
+
+.navbar-items ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+}

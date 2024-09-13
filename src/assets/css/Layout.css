@@ -1,0 +1,10 @@
+.layout-container {
+    width: 100%;
+    max-width: 430px;
+    background-color: aliceblue;
+    height: 100vh;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+}
