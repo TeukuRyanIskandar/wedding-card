@@ -5,11 +5,13 @@ import Arc from './Arc';
 
 const Layout = () => {
     return (
-        <div className="layout-container">
-            <div className="layout-area">
-                <Arc />
-                <Monogram />
-                <Navbar />
+        <div className="page-wrapper">
+            <div className="layout-container">
+                <div className="layout-area">
+                    <Arc />
+                    <Monogram />
+                    <Navbar />
+                </div>
             </div>
         </div>
     )
