@@ -5,17 +5,16 @@ const Navbar = () => {
     return (
         <div className="navbar-container">
             <div className="navbar-items">
-            <ul>
-                    {NAVBAR_DATA.map((navbarItem, index) => (
-                        <li key={index}>
-                            {navbarItem.logo}
-                            <p>{navbarItem.title}</p>
-                        </li>
-                    ))}
-                </ul>
+                {NAVBAR_DATA.map((navbarItem, index) => (
+                    <button key={index} className="navbar-button">
+                        {navbarItem.logo}
+                        <p>{navbarItem.title}</p>
+                    </button>
+                ))}
             </div>
         </div>
     );
 };
+
 
 export default Navbar;
