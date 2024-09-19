@@ -2,9 +2,8 @@
     position: absolute;
     bottom: 0;
     background-color: var(--wisteria);
-    height: 12%;
+    height: auto;
     width: 100%;
-    opacity: 60%;
 }
 
 .navbar-items {
