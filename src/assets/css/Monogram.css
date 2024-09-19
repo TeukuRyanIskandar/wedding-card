@@ -1,0 +1,18 @@
+.monogram-container {
+    margin: 50px auto 0;
+}
+
+.monogram-items {
+    font-family: 'TheWeddingSignatureRegular', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.monogram-items p {
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.monogram-items .separator {
+
+}
